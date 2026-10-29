@@ -1,0 +1,23 @@
+{
+    "name": "anthony29/mercal",
+    "description": "Sistema de Información y Gestión de Servicios Médicos - Coordinación de Salud Mercal-Lara",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Anthony29\\Mercal\\": "src/",
+            "App\\Models\\": "modelo/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Equipo Mercal-Lara"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "dompdf/dompdf": "^3.1"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
